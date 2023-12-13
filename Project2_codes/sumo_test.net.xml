@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-12 09:30:12 by Eclipse SUMO netconvert Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="sumo_test.nod.xml"/>
+        <edge-files value="sumo_test.edge.xml"/>
+        <type-files value="sumo_test.type.xml"/>
+    </input>
+
+    <output>
+        <output-file value="sumo_test.net.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,5000.00,0.00" origBoundary="0.00,0.00,10000.00,0.00" projParameter="!"/>
+
+    <type id="lane" priority="3" numLanes="1" speed="50.00"/>
+
+    <edge id="edge1" from="nd1" to="nd2" priority="3" type="lane">
+        <lane id="edge1_0" index="0" speed="50.00" length="5000.00" shape="0.00,-1.60 5000.00,-1.60"/>
+    </edge>
+
+    <junction id="nd1" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,0.00 0.00,-3.20"/>
+    <junction id="nd2" type="dead_end" x="5000.00" y="0.00" incLanes="edge1_0" intLanes="" shape="5000.00,-3.20 5000.00,0.00"/>
+
+</net>

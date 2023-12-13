@@ -1,0 +1,15 @@
+
+<routes>
+
+<vType accel="1.0" decel="1.5" id="Car" length="5.0" delta="4.0" maxSpeed="15" carFollowModel="IDM" minGap="2"/>
+
+<route id="r1" edges="edge1"/>
+<vehicle depart='0.0' departPos="100" id="veh0" route="r1" type="Car" departSpeed="0"/>
+<vehicle depart='0.0' departPos="90" id="veh1" route="r1" type="Car" departSpeed="0"/>
+<vehicle depart='0.0' departPos="80" id="veh2" route="r1" type="Car" departSpeed="0"/>
+<vehicle depart='0.0' departPos="70" id="veh3" route="r1" type="Car" departSpeed="0"/>
+<vehicle depart='0.0' departPos="60" id="veh4" route="r1" type="Car" departSpeed="0"/>
+<vehicle depart='0.0' departPos="50" id="veh5" route="r1" type="Car" departSpeed="0"/>
+<vehicle depart='0.0' departPos="40" id="veh6" route="r1" type="Car" departSpeed="0"/>
+<vehicle depart='0.0' departPos="30" id="veh7" route="r1" type="Car" departSpeed="0"/>
+</routes>
